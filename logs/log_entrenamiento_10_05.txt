@@ -1,0 +1,88 @@
+VRAM liberada.
+Iniciando entrenamiento largo en dispositivo: cuda
+Escaneando directorio de caché y mezclando aleatoriamente...
+ - Train: 8684 muestras (Con Data Augmentation)
+ - Val:   2172 muestras (Sin Augmentation)
+   Copiados 1000/2172...
+   Copiados 2000/2172...
+Copia de seguridad de validacion completada.
+Comienzo del bucle de entrenamiento (150 epocas)...
+Epoch 1/150 | Train Loss: 3.27509 | Val Loss: 2.52171 | LR: 1.00e-04
+   Nuevo record! Modelo guardado.
+Epoch 2/150 | Train Loss: 2.19998 | Val Loss: 2.39842 | LR: 1.00e-04
+   Nuevo record! Modelo guardado.
+Epoch 3/150 | Train Loss: 1.98407 | Val Loss: 2.69655 | LR: 1.00e-04
+   Sin mejora (1/15)
+Epoch 4/150 | Train Loss: 1.85086 | Val Loss: 2.03455 | LR: 1.00e-04
+   Nuevo record! Modelo guardado.
+Epoch 5/150 | Train Loss: 1.74254 | Val Loss: 2.26342 | LR: 1.00e-04
+   Sin mejora (1/15)
+Epoch 6/150 | Train Loss: 1.67793 | Val Loss: 1.71209 | LR: 1.00e-04
+   Nuevo record! Modelo guardado.
+Epoch 7/150 | Train Loss: 1.61992 | Val Loss: 1.76945 | LR: 1.00e-04
+   Sin mejora (1/15)
+Epoch 8/150 | Train Loss: 1.58062 | Val Loss: 1.77182 | LR: 1.00e-04
+   Sin mejora (2/15)
+Epoch 9/150 | Train Loss: 1.54722 | Val Loss: 1.78803 | LR: 1.00e-04
+   Sin mejora (3/15)
+Epoch 10/150 | Train Loss: 1.50541 | Val Loss: 1.98937 | LR: 1.00e-04
+   Sin mejora (4/15)
+Epoch 11/150 | Train Loss: 1.46194 | Val Loss: 1.56065 | LR: 1.00e-04
+   Nuevo record! Modelo guardado.
+Epoch 12/150 | Train Loss: 1.44261 | Val Loss: 1.50667 | LR: 1.00e-04
+   Nuevo record! Modelo guardado.
+Epoch 13/150 | Train Loss: 1.39766 | Val Loss: 1.53515 | LR: 1.00e-04
+   Sin mejora (1/15)
+Epoch 14/150 | Train Loss: 1.37476 | Val Loss: 1.52654 | LR: 1.00e-04
+   Sin mejora (2/15)
+Epoch 15/150 | Train Loss: 1.35106 | Val Loss: 1.51437 | LR: 1.00e-04
+   Sin mejora (3/15)
+Epoch 16/150 | Train Loss: 1.33285 | Val Loss: 1.57417 | LR: 1.00e-04
+   Sin mejora (4/15)
+Epoch 17/150 | Train Loss: 1.30320 | Val Loss: 1.61685 | LR: 1.00e-04
+   Sin mejora (5/15)
+Epoch 18/150 | Train Loss: 1.28015 | Val Loss: 1.55957 | LR: 5.00e-05
+   Sin mejora (6/15)
+Epoch 19/150 | Train Loss: 1.20719 | Val Loss: 1.39076 | LR: 5.00e-05
+   Nuevo record! Modelo guardado.
+Epoch 20/150 | Train Loss: 1.17696 | Val Loss: 1.38074 | LR: 5.00e-05
+   Nuevo record! Modelo guardado.
+Epoch 21/150 | Train Loss: 1.15355 | Val Loss: 1.44140 | LR: 5.00e-05
+   Sin mejora (1/15)
+Epoch 22/150 | Train Loss: 1.15155 | Val Loss: 1.46902 | LR: 5.00e-05
+   Sin mejora (2/15)
+Epoch 23/150 | Train Loss: 1.12739 | Val Loss: 1.51017 | LR: 5.00e-05
+   Sin mejora (3/15)
+Epoch 24/150 | Train Loss: 1.11066 | Val Loss: 1.70555 | LR: 5.00e-05
+   Sin mejora (4/15)
+Epoch 25/150 | Train Loss: 1.10075 | Val Loss: 2.06960 | LR: 5.00e-05
+   Sin mejora (5/15)
+Epoch 26/150 | Train Loss: 1.07397 | Val Loss: 1.41971 | LR: 2.50e-05
+   Sin mejora (6/15)
+Epoch 27/150 | Train Loss: 1.01297 | Val Loss: 1.39907 | LR: 2.50e-05
+   Sin mejora (7/15)
+Epoch 28/150 | Train Loss: 0.98493 | Val Loss: 1.46645 | LR: 2.50e-05
+   Sin mejora (8/15)
+Epoch 29/150 | Train Loss: 0.97905 | Val Loss: 1.38586 | LR: 2.50e-05
+   Sin mejora (9/15)
+Epoch 30/150 | Train Loss: 0.96367 | Val Loss: 1.43321 | LR: 2.50e-05
+   Sin mejora (10/15)
+Epoch 31/150 | Train Loss: 0.94068 | Val Loss: 1.43942 | LR: 2.50e-05
+   Sin mejora (11/15)
+Epoch 32/150 | Train Loss: 0.93756 | Val Loss: 1.40983 | LR: 1.25e-05
+   Sin mejora (12/15)
+Epoch 33/150 | Train Loss: 0.89469 | Val Loss: 1.44176 | LR: 1.25e-05
+   Sin mejora (13/15)
+Epoch 34/150 | Train Loss: 0.86953 | Val Loss: 1.50167 | LR: 1.25e-05
+   Sin mejora (14/15)
+Epoch 35/150 | Train Loss: 0.85481 | Val Loss: 1.44198 | LR: 1.25e-05
+   Sin mejora (15/15)
+Early Stopping activado en epoca 35.
+Resultados guardados correctamente en 'tabla_comparativa_modelos.csv'
+
+========================================
+Entrenamiento finalizado.
+Tiempo total: 96.85 min
+Mejor Loss (Val): 1.380735
+Modelo Guardado: /home/lolo/Modelo_Propio/Modelos/detector_BEST_2026-05-10_17-23-48.pth
+========================================

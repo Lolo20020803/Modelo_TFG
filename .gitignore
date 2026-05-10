@@ -3,7 +3,10 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+#Cosas del modelo
 *.pt
+*.pth
+
 # C extensions
 *.so
 
